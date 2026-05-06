@@ -26,7 +26,9 @@ Dieses Repository ist **kein Plugin selbst**, sondern der Katalog. Die eigentlic
 
 ## Installation
 
-Du brauchst eine aktuelle Version von [Claude Code](https://docs.claude.com/claude-code) (CLI, VS Code oder JetBrains).
+Du brauchst eine aktuelle Version von [Claude Code](https://docs.claude.com/claude-code) — als **CLI**, **Desktop-App** (macOS/Windows), **VS Code Extension** oder **JetBrains Plugin**.
+
+### CLI / VS Code / JetBrains
 
 **1. Marketplace hinzufügen** (einmalig):
 
@@ -39,6 +41,17 @@ Du brauchst eine aktuelle Version von [Claude Code](https://docs.claude.com/clau
 ```bash
 /plugin install ki-vertriebsteam@rech-studio
 ```
+
+### Claude Code Desktop-App (Code-Tab)
+
+Im Desktop-App läuft Plugin-Management über die **UI**, nicht über Slash-Commands ([offizielle Doku](https://docs.claude.com/en/docs/claude-code/desktop#install-plugins)):
+
+1. **Lokale Session** im **Code**-Tab starten (Plugins sind in Remote-Sessions nicht verfügbar).
+2. Auf den **`+` Button** neben der Prompt-Eingabe klicken → **Plugins** → **Add plugin**.
+3. Im Plugin-Browser den Marketplace `jonasrech/rech-studio-plugins` hinzufügen und anschließend `ki-vertriebsteam` installieren.
+4. Über **Manage plugins** lassen sich Plugins später aktivieren, deaktivieren oder deinstallieren.
+
+> Alternativ: Auf jeder Oberfläche kannst du den Marketplace auch projektweit über `.claude/settings.json` festlegen — siehe Abschnitt [Team-Marketplaces in der offiziellen Doku](https://docs.claude.com/en/docs/claude-code/discover-plugins#configure-team-marketplaces).
 
 Danach stehen die Skills als Slash-Commands zur Verfügung, z. B. `/ki-vertriebsteam:sales-prep` oder `/ki-vertriebsteam:sales-objections`.
 

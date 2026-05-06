@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rech-studio",
+  "description": "Plugins by rech.studio — KI-gestützte Workflows für B2B-Teams.",
+  "owner": {
+    "name": "Jonas Rech",
+    "email": "jonas@rech.studio",
+    "url": "https://rech.studio"
+  },
+  "plugins": [
+    {
+      "name": "ki-vertriebsteam",
+      "source": {
+        "source": "github",
+        "repo": "jonasrech/ki-vertriebsteam-claude",
+        "ref": "v1.0.0"
+      },
+      "description": "Skills und Agents für einen KI-gestützten B2B-Vertriebs-Workflow (Prospecting, Qualifizierung, Outreach, Proposals, Follow-up).",
+      "category": "productivity",
+      "license": "MIT",
+      "homepage": "https://rech.studio",
+      "keywords": ["sales", "vertrieb", "b2b", "german", "rech-studio"],
+      "strict": true
+    }
+  ]
+}

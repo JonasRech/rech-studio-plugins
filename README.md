@@ -1,6 +1,20 @@
+<p align="center">
+  <a href="https://rech.studio">
+    <img src="assets/banner.png" alt="rech.studio plugins for Claude Code" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#installation"><img src="https://img.shields.io/badge/install-via_marketplace-blue?style=for-the-badge" alt="Install"></a>
+  <a href="#verfügbare-plugins"><img src="https://img.shields.io/badge/plugins-1_available-8b5cf6?style=for-the-badge" alt="Plugins"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-gray?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://rech.studio"><img src="https://img.shields.io/badge/by-rech.studio-000?style=for-the-badge" alt="rech.studio"></a>
+</p>
+
 # rech.studio Plugins für Claude Code
 
-Plugin-Marketplace von [rech.studio](https://rech.studio) für [Claude Code](https://docs.claude.com/claude-code) — KI-gestützte Workflows für B2B-Teams.
+> **Plugin-Marketplace von [rech.studio](https://rech.studio) für [Claude Code](https://docs.claude.com/claude-code).**
+> KI-gestützte Workflows für B2B-Teams — Vertrieb, Marketing, Research.
 
 Dieses Repository ist **kein Plugin selbst**, sondern der Katalog. Die eigentlichen Plugins liegen in eigenen Repos und werden hier nur referenziert.
 
@@ -92,3 +106,9 @@ Der `ref` ist im aktuellen `ki-vertriebsteam`-Eintrag bewusst nicht gesetzt — 
 ## Lizenz
 
 [MIT](./LICENSE) — Copyright (c) 2026 Jonas Rech / rech.studio ([https://www.rech.studio](https://www.rech.studio))
+
+---
+
+<p align="center">
+  Built by <a href="https://rech.studio">rech.studio</a> for B2B teams who deserve better tooling.
+</p>
